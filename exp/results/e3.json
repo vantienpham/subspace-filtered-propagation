@@ -1,0 +1,777 @@
+{
+ "n_calib": 256,
+ "n_eval": 10000,
+ "models": {
+  "resnet18": {
+   "baseline_top1": 69.74,
+   "runs": [
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7006565372446686,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 34.05,
+     "gain_mean": 1.0000000003302625,
+     "gain_max": 1.0000000065229122
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7006565372446686,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 31.55,
+     "gain_mean": 0.9995576440135023,
+     "gain_max": 0.9999993860272715
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7006565372446686,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 63.86,
+     "gain_mean": 0.9981694198737698,
+     "gain_max": 0.9997861895222487
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7006565372446686,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 34.05,
+     "gain_mean": 1.0000000003302625,
+     "gain_max": 1.0000000065229122
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7006565372446686,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 22.18,
+     "gain_mean": 0.9989547909624018,
+     "gain_max": 0.9999993860272715
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7006565372446686,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 63.35,
+     "gain_mean": 0.9980762097472483,
+     "gain_max": 0.9997945153972588
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7006565372446686,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 63.54,
+     "gain_mean": 1.064260200611551,
+     "gain_max": 1.2149433616802319
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5995529154681564,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 7.85,
+     "gain_mean": 0.9999999997931138,
+     "gain_max": 1.0000000010608276
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5995529154681564,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 8.6,
+     "gain_mean": 0.9993446167893472,
+     "gain_max": 0.9999993367009791
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5995529154681564,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 58.55,
+     "gain_mean": 0.9970358417195934,
+     "gain_max": 0.9996919713916919
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5995529154681564,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 7.85,
+     "gain_mean": 0.9999999997931138,
+     "gain_max": 1.0000000010608276
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5995529154681564,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 7.12,
+     "gain_mean": 0.9978226482493737,
+     "gain_max": 0.9999993367009791
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5995529154681564,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 55.44,
+     "gain_mean": 0.9963787844434394,
+     "gain_max": 0.9997291441066795
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5995529154681564,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 59.65,
+     "gain_mean": 1.1091708479005604,
+     "gain_max": 1.3522756345011293
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4998109416372557,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 1.37,
+     "gain_mean": 0.9999999999533267,
+     "gain_max": 1.000000002382133
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4998109416372557,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 1.91,
+     "gain_mean": 0.9990193769366843,
+     "gain_max": 0.9999991399678142
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4998109416372557,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 46.33,
+     "gain_mean": 0.9950463582982262,
+     "gain_max": 0.9995072664120447
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4998109416372557,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 1.37,
+     "gain_mean": 0.9999999999533267,
+     "gain_max": 1.000000002382133
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4998109416372557,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 0.79,
+     "gain_mean": 0.9926867347868619,
+     "gain_max": 0.9999991399678142
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4998109416372557,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 38.58,
+     "gain_mean": 0.9939142476957499,
+     "gain_max": 0.9995378424932992
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4998109416372557,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 52.69,
+     "gain_mean": 1.196489690288158,
+     "gain_max": 1.58558124794264
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40004321822844274,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 0.7,
+     "gain_mean": 1.0000000006569425,
+     "gain_max": 1.0000000065683463
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40004321822844274,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 0.73,
+     "gain_mean": 0.9986870238326555,
+     "gain_max": 0.9999990395040147
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40004321822844274,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 25.24,
+     "gain_mean": 0.9927163543288638,
+     "gain_max": 0.9992193160792946
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40004321822844274,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 0.7,
+     "gain_mean": 1.0000000006569425,
+     "gain_max": 1.0000000065683463
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40004321822844274,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 0.22,
+     "gain_mean": 0.9876813793753568,
+     "gain_max": 0.9999990395040147
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40004321822844274,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 10.09,
+     "gain_mean": 0.9888321982958023,
+     "gain_max": 0.998951900657692
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40004321822844274,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 41.05,
+     "gain_mean": 1.3527540800136275,
+     "gain_max": 1.9653236897947428
+    }
+   ]
+  },
+  "resnet34": {
+   "baseline_top1": 73.58,
+   "runs": [
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7004636550178386,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 46.32,
+     "gain_mean": 1.0000000001578289,
+     "gain_max": 1.0000000038638723
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7004636550178386,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 51.81,
+     "gain_mean": 0.9996056116825959,
+     "gain_max": 0.9999998449439622
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7004636550178386,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 68.15,
+     "gain_mean": 0.99831982522438,
+     "gain_max": 0.9998666096656105
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7004636550178386,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 46.32,
+     "gain_mean": 1.0000000001578289,
+     "gain_max": 1.0000000038638723
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7004636550178386,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 41.07,
+     "gain_mean": 0.999218837298606,
+     "gain_max": 0.9999998449439622
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7004636550178386,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 68.13,
+     "gain_mean": 0.9982428454251128,
+     "gain_max": 0.999867188870217
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7004636550178386,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 67.33,
+     "gain_mean": 1.0682405030022253,
+     "gain_max": 1.328373846187785
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5994431423685979,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 24.5,
+     "gain_mean": 1.0000000000332014,
+     "gain_max": 1.000000005111179
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5994431423685979,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 33.84,
+     "gain_mean": 0.999406468757819,
+     "gain_max": 0.9999997950167391
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5994431423685979,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 63.61,
+     "gain_mean": 0.9973712484814036,
+     "gain_max": 0.9997629768064469
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5994431423685979,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 24.5,
+     "gain_mean": 1.0000000000332014,
+     "gain_max": 1.000000005111179
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5994431423685979,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 21.01,
+     "gain_mean": 0.9983932510789217,
+     "gain_max": 0.9999997950167391
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5994431423685979,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 60.95,
+     "gain_mean": 0.9971353710168191,
+     "gain_max": 0.9997816276666976
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.5994431423685979,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 64.11,
+     "gain_mean": 1.1185391059546994,
+     "gain_max": 1.550533659315874
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4997987858519937,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 9.19,
+     "gain_mean": 1.000000000218118,
+     "gain_max": 1.0000000078085627
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4997987858519937,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 14.91,
+     "gain_mean": 0.9991131774590105,
+     "gain_max": 0.9999997538854998
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4997987858519937,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 51.18,
+     "gain_mean": 0.9956768296529811,
+     "gain_max": 0.9995933940510959
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4997987858519937,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 9.19,
+     "gain_mean": 1.000000000218118,
+     "gain_max": 1.0000000078085627
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4997987858519937,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 1.75,
+     "gain_mean": 0.9959251126914689,
+     "gain_max": 0.9999997538854998
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4997987858519937,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 42.12,
+     "gain_mean": 0.9950000104618789,
+     "gain_max": 0.9995955800814327
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.4997987858519937,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 56.47,
+     "gain_mean": 1.21006649200507,
+     "gain_max": 1.8700232341314644
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.39990573305259386,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 1.21,
+     "gain_mean": 0.9999999999470796,
+     "gain_max": 1.0000000023853746
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.39990573305259386,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 2.17,
+     "gain_mean": 0.998699602509992,
+     "gain_max": 0.9999993466960642
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.39990573305259386,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 28.97,
+     "gain_mean": 0.9929235776774487,
+     "gain_max": 0.999345110387639
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.39990573305259386,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 1.21,
+     "gain_mean": 0.9999999999470796,
+     "gain_max": 1.0000000023853746
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.39990573305259386,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 0.36,
+     "gain_mean": 0.9911109443126873,
+     "gain_max": 0.9999993466960642
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.39990573305259386,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 12.54,
+     "gain_mean": 0.9900828275402791,
+     "gain_max": 0.9993447098361686
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.39990573305259386,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 43.3,
+     "gain_mean": 1.4063807545243228,
+     "gain_max": 2.5956882574413664
+    }
+   ]
+  },
+  "resnet50": {
+   "baseline_top1": 75.99,
+   "runs": [
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7007451021699234,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 62.52,
+     "gain_mean": 0.9999999998293924,
+     "gain_max": 1.0000000027693348
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7007451021699234,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 62.17,
+     "gain_mean": 0.9993426058175485,
+     "gain_max": 0.9999997539658226
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7007451021699234,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 73.93,
+     "gain_mean": 0.9989499053203837,
+     "gain_max": 0.9999688781597529
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7007451021699234,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 62.52,
+     "gain_mean": 0.9999999998293924,
+     "gain_max": 1.0000000027693348
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7007451021699234,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 55.01,
+     "gain_mean": 0.9986912703503393,
+     "gain_max": 0.9999997539658226
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7007451021699234,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 73.71,
+     "gain_mean": 0.9989105867731288,
+     "gain_max": 0.9999717290205312
+    },
+    {
+     "rho": 0.7,
+     "param_ratio": 0.7007451021699234,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 71.15,
+     "gain_mean": 1.0589475389266105,
+     "gain_max": 2.1464340027000737
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.600581828124643,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 51.78,
+     "gain_mean": 1.0000000001156852,
+     "gain_max": 1.0000000027552147
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.600581828124643,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 50.99,
+     "gain_mean": 0.9989788099726029,
+     "gain_max": 0.9999995262558004
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.600581828124643,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 71.87,
+     "gain_mean": 0.9981804854288144,
+     "gain_max": 0.9999511861022272
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.600581828124643,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 51.78,
+     "gain_mean": 1.0000000001156852,
+     "gain_max": 1.0000000027552147
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.600581828124643,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 26.79,
+     "gain_mean": 0.9972614125937981,
+     "gain_max": 0.9999995262558004
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.600581828124643,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 71.18,
+     "gain_mean": 0.9980345245652313,
+     "gain_max": 0.9999545494409191
+    },
+    {
+     "rho": 0.6,
+     "param_ratio": 0.600581828124643,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 68.92,
+     "gain_mean": 1.110422811380059,
+     "gain_max": 2.889993777152046
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.5006557099431577,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 32.09,
+     "gain_mean": 0.9999999999902911,
+     "gain_max": 1.0000000029306937
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.5006557099431577,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 35.12,
+     "gain_mean": 0.998479004243428,
+     "gain_max": 0.9999993529912432
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.5006557099431577,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 65.7,
+     "gain_mean": 0.996920786215155,
+     "gain_max": 0.9998936956423238
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.5006557099431577,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 32.09,
+     "gain_mean": 0.9999999999902911,
+     "gain_max": 1.0000000029306937
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.5006557099431577,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 4.72,
+     "gain_mean": 0.9952508566347494,
+     "gain_max": 0.9999993529912432
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.5006557099431577,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 61.76,
+     "gain_mean": 0.996460196311786,
+     "gain_max": 0.9999089277475987
+    },
+    {
+     "rho": 0.5,
+     "param_ratio": 0.5006557099431577,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 64.39,
+     "gain_mean": 1.2489898057359008,
+     "gain_max": 4.7115978213397
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40111848668499533,
+     "scheme": "one-shot",
+     "method": "agnostic",
+     "top1": 6.37,
+     "gain_mean": 0.9999999997541771,
+     "gain_max": 1.0000000029347873
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40111848668499533,
+     "scheme": "one-shot",
+     "method": "diag",
+     "top1": 5.36,
+     "gain_mean": 0.9976218167399111,
+     "gain_max": 0.9999990480607768
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40111848668499533,
+     "scheme": "one-shot",
+     "method": "whitened",
+     "top1": 50.54,
+     "gain_mean": 0.9932113152486112,
+     "gain_max": 0.9997695420732874
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40111848668499533,
+     "scheme": "sequential",
+     "method": "agnostic",
+     "top1": 6.37,
+     "gain_mean": 0.9999999997541771,
+     "gain_max": 1.0000000029347873
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40111848668499533,
+     "scheme": "sequential",
+     "method": "diag",
+     "top1": 0.39,
+     "gain_mean": 0.9878710473732761,
+     "gain_max": 0.9999990480607768
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40111848668499533,
+     "scheme": "sequential",
+     "method": "whitened",
+     "top1": 34.16,
+     "gain_mean": 0.9923300567522872,
+     "gain_max": 0.9997786819182612
+    },
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40111848668499533,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 54.95,
+     "gain_mean": 1.4904893766143203,
+     "gain_max": 6.577153351835953
+    }
+   ]
+  }
+ }
+}

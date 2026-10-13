@@ -1,0 +1,23 @@
+\begin{table}[!t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.6pt}
+\caption{VGG-16 ($L=13$). Median $\mu_l$, mean $\alpha_l$ ($l\ge2$) and bounds on $\varepsilon_L$ from the 128 calibration images; $\varepsilon_L$ measured on them and on four held-out sets of 128 images (largest of the four).}
+\label{tab:e2}
+\begin{tabular}{cl cc cc cc}
+\toprule
+& & & & \multicolumn{2}{c}{bound on $\varepsilon_L$} & \multicolumn{2}{c}{measured $\varepsilon_L$} \\
+\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+$\rho$ & compr. & $\mu_l$ & $\alpha_l$ & Eq.~\eqref{eq:naive} & Eq.~\eqref{eq:unrolled} & calib. & held-out \\
+\midrule
+\multirow{2}{*}{0.50} & agn. & 3.5 & 0.90 & $2.4\!\cdot\!10^{12}$ & 2.70 & 0.78 & 0.77 \\
+ & cov.-wt. & 3.0 & 0.91 & $5.6\!\cdot\!10^{11}$ & 1.77 & 0.53 & 0.58 \\
+\addlinespace[1pt]
+\multirow{2}{*}{0.30} & agn. & 4.8 & 0.87 & $3.1\!\cdot\!10^{12}$ & 3.18 & 0.94 & 0.94 \\
+ & cov.-wt. & 5.7 & 0.96 & $1.2\!\cdot\!10^{12}$ & 2.94 & 0.84 & 0.87 \\
+\addlinespace[1pt]
+\multirow{2}{*}{0.15} & agn. & 7.2 & 0.80 & $3.7\!\cdot\!10^{12}$ & 3.19 & 0.98 & 0.98 \\
+ & cov.-wt. & 9.6 & 0.91 & $2.3\!\cdot\!10^{12}$ & 3.44 & 0.98 & 0.98 \\
+\bottomrule
+\end{tabular}
+\end{table}

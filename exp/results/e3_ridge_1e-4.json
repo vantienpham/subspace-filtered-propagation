@@ -1,0 +1,20 @@
+{
+ "n_calib": 256,
+ "n_eval": 10000,
+ "models": {
+  "resnet18": {
+   "baseline_top1": 69.74,
+   "runs": [
+    {
+     "rho": 0.4,
+     "param_ratio": 0.40004321822844274,
+     "scheme": "compensated",
+     "method": "whitened",
+     "top1": 41.05,
+     "gain_mean": 1.3494221116745302,
+     "gain_max": 1.9631870629246206
+    }
+   ]
+  }
+ }
+}

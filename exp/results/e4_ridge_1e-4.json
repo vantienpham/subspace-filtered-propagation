@@ -1,0 +1,20 @@
+{
+ "seqlen": 2048,
+ "n_calib_seq": 32,
+ "models": {
+  "Qwen/Qwen2.5-0.5B": {
+   "baseline_ppl": 13.069886207580566,
+   "runs": [
+    {
+     "rho": 0.9,
+     "param_ratio": 0.9000257554945055,
+     "scheme": "compensated",
+     "method": "whitened",
+     "ppl": 349.88916015625,
+     "gain_mean": 2.299084303598388,
+     "gain_max": 16.69681163525454
+    }
+   ]
+  }
+ }
+}
